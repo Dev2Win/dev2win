@@ -1,0 +1,108 @@
+{
+  "intents": [
+    {
+      "name": "Welcome",
+      "examples": [
+        "Hi there!",
+        "Welcome to your AI, Data Science & Software Engineering learning companion!",
+        "What would you like to learn today?",
+        "Excited to join the dev2win community!"
+      ],
+      "responses": [
+        "Hi {Person}, welcome! ",
+        "dev2win is your one-stop shop for tech learning and career success! ",
+        "Let's explore AI, data science, or software engineering. What interests you?",
+        "Welcome to the dev2win community! "
+      ]
+    },
+    {
+      "name": "Goodbye",
+      "examples": [
+        "See you later!",
+        "I hope I learned something new today!",
+        "Have a great day! ☀️",
+        "Thanks for your help!"
+      ],
+      "responses": [
+        "See you soon! ",
+        "Glad you learned something! ",
+        "Have a fantastic day! ☀️",
+        "Happy to help! "
+      ]
+    },
+    {
+      "name": "NeedHelp",
+      "examples": [
+        "I need help using dev2win.",
+        "Can you explain this concept again?",
+        "I'm stuck on this technical term.",
+        "Where can I find more resources?"
+      ],
+      "responses": [
+        "I'm here to help! What's the issue?",
+        "Sure, I can clarify that. ",
+        "Let's break down that term for you.",
+        "Here are some resources that might be helpful: {links}",
+        "I'm happy to suggest more resources. Just ask!"
+      ]
+    },
+    {
+      "name": "ShareExperience",
+      "examples": [
+        "I just coded my first program!",
+        "I'm building a website using HTML and CSS.",
+        "Data analysis helped me solve a real-world problem.",
+        "I landed a job thanks to dev2win!"
+      ],
+      "responses": [
+        "That's awesome! ",
+        "Congratulations on your progress! ",
+        "That's impressive! How did data analysis help?",
+        "Wow, that's fantastic! dev2win is proud of you! "
+      ]
+    },
+    {
+      "name": "Confused",
+      "examples": [
+        "I'm lost. Can you explain that again?",
+        "This is too complex for me.",
+        "I don't understand the terminology.",
+        "I need a simpler explanation."
+      ],
+      "responses": [
+        "Don't worry, I'm here to help you understand. ",
+        "Let's break it down into smaller steps.",
+        "I can explain it in simpler terms. What's confusing you?",
+        "Absolutely, simpler explanations are always better! How can I help?"
+      ]
+    },
+    {
+      "name": "OffTopic",
+      "examples": [
+        "Did you see that amazing sunset last night?",
+        "I'm going to grab a coffee. Want to join?",
+        "Let's talk about something else for a while.",
+        "That's interesting, but I need help with..."
+      ],
+      "responses": [
+        "That's a beautiful sunset! ",
+        "Sure, coffee sounds great! ☕️",
+        "Happy to chat about anything! What's on your mind?",
+        "No problem, let's get back to your question. What was it?"
+      ]
+    },
+    {
+      "name": "PlatformOverview",
+      "examples": [
+        "What can I do on dev2win?",
+        "Explain the different features of dev2win.",
+        "I'm not sure where to start.",
+        "What are the benefits of using dev2win?"
+      ],
+      "responses": [
+        "dev2win offers learning paths, mentors, capstone projects, and job opportunities! ",
+        "Browse curated paths, connect with experts, build your portfolio, and land your dream job! ",
+        "Start by exploring your interests, take a learning path, and connect with a mentor. ",
+        "dev2win empowers you to learn, grow, and achieve your tech goals! "
+      ]
+    },
